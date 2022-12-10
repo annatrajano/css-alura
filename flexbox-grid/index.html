@@ -17,37 +17,272 @@
   <body>
     <header class="cabecalho">
       <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
-      <img src="./assets/img/logo.svg" alt="Logotipo da HZC" class="cabecalho__logo">
-      <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
+      <img
+        src="./assets/img/logo.svg"
+        alt="Logotipo da HZC"
+        class="cabecalho__logo"
+      />
+      <p class="cabecalho__perfil">Anna Bia</p>
+      <button class="cabecalho__notificacao" aria-label="Notificação">
+        <i></i>
+      </button>
     </header>
     <nav class="menu-lateral">
-      <img src="./assets/img/logo.svg" alt="Logotipo da HZC" class="menu-lateral__logo">
-      <a href="#" class="menu-lateral__link menu-lateral__link--inicio">Início</a>
-      <a href="#" class="menu-lateral__link menu-lateral__link--video">Vídeos</a>
-      <a href="#" class="menu-lateral__link menu-lateral__link--picos" >Picos</a>
-      <a href="#" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
-      <a href="#" class="menu-lateral__link menu-lateral__link--camisas">Camisas</a>
-      <a href="#" class="menu-lateral__link menu-lateral__link--pinturas">Pinturas</a>
+      <img
+        src="./assets/img/logo.svg"
+        alt="Logotipo da HZC"
+        class="menu-lateral__logo"
+      />
+      <a href="#" class="menu-lateral__link menu-lateral__link--inicio"
+        >Início</a
+      >
+      <a href="#" class="menu-lateral__link menu-lateral__link--video"
+        >Vídeos</a
+      >
+      <a href="#" class="menu-lateral__link menu-lateral__link--picos">Picos</a>
+      <a href="#" class="menu-lateral__link menu-lateral__link--integrantes"
+        >Integrantes</a
+      >
+      <a href="#" class="menu-lateral__link menu-lateral__link--camisas"
+        >Camisas</a
+      >
+      <a href="#" class="menu-lateral__link menu-lateral__link--pinturas"
+        >Pinturas</a
+      >
     </nav>
     <main class="principal">
       <h2 class="titulo-pagina">Início</h2>
-      <article class="cartao">
-        <img src="./assets/img/banner-mobile_1.png" alt="Banner do cartao" class="cartao__imagem">
+      <article class="cartao cartao--destaque">
+        <img
+          src="./assets/img/banner-mobile_1.png"
+          alt="Banner do cartao"
+          class="cartao__imagem"
+        />
         <div class="cartao__conteudo">
           <p class="cartao__destaque">Vídeo em destaque</p>
-          <h3 class="cartao__titulo">HZC - Título</h3>
+          <h3 class="cartao__titulo">HZC - Life is... /2021</h3>
           <p class="cartao__perfil">Bruno Lopez</p>
           <p class="cartao__info cartao__info--tempo">33 minutos</p>
-          <p class="cartao__info cartao__info--visualizacao">33 visualizaçãoes</p>
-          <button class="cartao__botao cartao__botao--play cartao__botao--destaque">Assistir agora</button>
-
+          <p class="cartao__info cartao__info--visualizacao">
+            33 visualizaçãoes
+          </p>
+          <button
+            class="cartao__botao cartao__botao--play cartao__botao--destaque"
+          >
+            Assistir agora
+          </button>
         </div>
       </article>
+      <article class="cartao cartao--recentes">
+        <h3 class="cartao__titulo">Vídeos recentes</h3>
+        <a href="#" class="cartao__link">Ver todos</a>
+        <ul class="cartao__lista">
+          <li class="cartao__item">
+            <img src="./assets/img/miniatura_1.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">HZC - Love machine</h4>
+            <p class="cartao__item-perfil">Júlia Fonseca</p>
+          </li>
+          <li class="cartao__item">
+            <img src="./assets/img/miniatura_2.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">HZC - Vol.3</h4>
+            <p class="cartao__item-perfil">Júlia Fonseca</p>
+          </li>
+          <li class="cartao__item">
+            <img src="./assets/img/miniatura_3.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">HZC - Pescaria na Urca</h4>
+            <p class="cartao__item-perfil">Júlia Fonseca</p>
+          </li>
+          <li class="cartao__item">
+            <img src="./assets/img/miniatura_4.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">Videolocagi - Guerreiros do Asfalto</h4>
+            <p class="cartao__item-perfil">Júlia Fonseca</p>
+          </li>
+          <li class="cartao__item">
+            <img src="./assets/img/miniatura_5.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">Videolocagi - Não importa o nível</h4>
+            <p class="cartao__item-perfil">Júlia Fonseca</p>
+          </li>
+        </ul>
 
+      </article>
+      <section class="secao">
+        <h3 class="titulo-secao">Vídeos mais vistos</h3>
+        <article class="cartao">
+          <img
+            src="./assets/img/video_1.png"
+            alt="Vídeo"
+            class="cartao__imagem"
+          />
+          <div class="cartao__conteudo">
+            <p class="cartao__perfil">Bruno Lopez</p>
+            <h3 class="cartao__titulo">HZC - Tudo sem Padrin</h3>
+            <p class="cartao__info cartao__info--tempo">33 minutos</p>
+
+            <button
+              class="cartao__botao cartao__botao--play" aria-label="Assistir agora"
+            >
+            </button>
+          </div>
+        </article>
+        <article class="cartao">
+          <img
+            src="./assets/img/video_2.png"
+            alt="Vídeo"
+            class="cartao__imagem"
+          />
+          <div class="cartao__conteudo">
+            <p class="cartao__perfil">Bruno Lopez</p>
+            <h3 class="cartao__titulo">HZC - Enter The Hu-flez</h3>
+            <p class="cartao__info cartao__info--tempo">33 minutos</p>
+
+            <button
+              class="cartao__botao cartao__botao--play" aria-label="Assistir agora"
+            >
+            </button>
+          </div>
+        </article>        
+        <article class="cartao">
+          <img
+            src="./assets/img/video_3.png"
+            alt="Vídeo"
+            class="cartao__imagem"
+          />
+          <div class="cartao__conteudo">
+            <p class="cartao__perfil">Bruno Lopez</p>
+            <h3 class="cartao__titulo">HZC - Vol.3</h3>
+            <p class="cartao__info cartao__info--tempo">33 minutos</p>
+
+            <button
+              class="cartao__botao cartao__botao--play" aria-label="Assistir agora"
+            >
+            </button>
+          </div>
+        </article>
+        <article class="cartao">
+          <img
+            src="./assets/img/video_4.png"
+            alt="Vídeo"
+            class="cartao__imagem"
+          />
+          <div class="cartao__conteudo">
+            <p class="cartao__perfil">Bruno Lopez</p>
+            <h3 class="cartao__titulo">HZC - Love Machine</h3>
+            <p class="cartao__info cartao__info--tempo">33 minutos</p>
+
+            <button
+              class="cartao__botao cartao__botao--play" aria-label="Assistir agora"
+            >
+            </button>
+          </div>
+        </article>
+      </section>
+      <article class="cartao cartao--recentes">
+        <h3 class="cartao__titulo">Vídeos recentes</h3>
+        <a href="#" class="cartao__link">Ver todos</a>
+        <ul class="cartao__lista">
+          <li class="cartao__item">
+            <img src="./assets/img/miniatura_1.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">HZC - Love machine</h4>
+            <p class="cartao__item-perfil">Júlia Fonseca</p>
+          </li>
+          <li class="cartao__item">
+            <img src="./assets/img/miniatura_2.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">HZC - Vol.3</h4>
+            <p class="cartao__item-perfil">Júlia Fonseca</p>
+          </li>
+          <li class="cartao__item">
+            <img src="./assets/img/miniatura_3.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">HZC - Pescaria na Urca</h4>
+            <p class="cartao__item-perfil">Júlia Fonseca</p>
+          </li>
+          <li class="cartao__item">
+            <img src="./assets/img/miniatura_4.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">Videolocagi - Guerreiros do Asfalto</h4>
+            <p class="cartao__item-perfil">Júlia Fonseca</p>
+          </li>
+          <li class="cartao__item">
+            <img src="./assets/img/miniatura_5.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">Videolocagi - Não importa o nível</h4>
+            <p class="cartao__item-perfil">Júlia Fonseca</p>
+          </li>
+        </ul>
+
+      </article>
+      <section class="secao">
+        <h3 class="titulo-secao">Camisas mais recentes</h3>
+        <article class="cartao cartao--destaque">
+          <img
+            src="./assets/img/produto_1.png"
+            alt="Vídeo"
+            class="cartao__imagem"
+          />
+          <div class="cartao__conteudo">
+            <p class="cartao__perfil">André Soares
+            </p>
+            <h3 class="cartao__titulo">IBM</h3>
+            <p class="cartao__info cartao__info--moeda">33,33</p>
+
+            <button
+              class="cartao__botao cartao__info--carrinho" aria-label="Assistir agora"
+            >
+            </button>
+          </div>
+        </article>
+        <article class="cartao">
+          <img
+            src="./assets/img/produto_2.png"
+            alt="Vídeo"
+            class="cartao__imagem"
+          />
+          <div class="cartao__conteudo">
+            <p class="cartao__perfil">Bruno Lopez</p>
+            <h3 class="cartao__titulo">Huflez</h3>
+            <p class="cartao__info cartao__info--moeda">33,33</p>
+
+            <button
+              class="cartao__botao cartao__info--carrinho" aria-label="Assistir agora"
+            >
+            </button>
+          </div>
+        </article>        
+        <article class="cartao">
+          <img
+            src="./assets/img/produto_3.png"
+            alt="Vídeo"
+            class="cartao__imagem"
+          />
+          <div class="cartao__conteudo">
+            <p class="cartao__perfil">Luiza Sampaio</p>
+            <h3 class="cartao__titulo">Corujita Noturna</h3>
+            <p class="cartao__info cartao__info--moeda">33,33</p>
+
+            <button
+              class="cartao__botao cartao__info--carrinho" aria-label="Assistir agora"
+            >
+            </button>
+          </div>
+        </article>
+        <article class="cartao">
+          <img
+            src="./assets/img/produto_4.png"
+            alt="Vídeo"
+            class="cartao__imagem"
+          />
+          <div class="cartao__conteudo">
+            <p class="cartao__perfil">Bruno Lopez</p>
+            <h3 class="cartao__titulo">GGG - Gatin G Gorro</h3>
+            <p class="cartao__info cartao__info--moeda">33,33</p>
+
+            <button
+              class="cartao__botao cartao__info--carrinho" aria-label="Assistir agora"
+            >
+            </button>
+          </div>
+        </article>
+
+      </section>
     </main>
 
-
     <script src="index.js"></script>
-
   </body>
 </html>
