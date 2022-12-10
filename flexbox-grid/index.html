@@ -52,12 +52,9 @@
     </nav>
     <main class="principal">
       <h2 class="titulo-pagina">Início</h2>
-      <article class="cartao cartao--destaque">
-        <img
-          src="./assets/img/banner-mobile_1.png"
-          alt="Banner do cartao"
-          class="cartao__imagem"
-        />
+      <article class="cartao cartao--destaque destaque-video">
+        <img src="assets/img/banner-mobile_1.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--mobile">
+        <img src="assets/img/banner_1.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--desktop">
         <div class="cartao__conteudo">
           <p class="cartao__destaque">Vídeo em destaque</p>
           <h3 class="cartao__titulo">HZC - Life is... /2021</h3>
@@ -73,7 +70,7 @@
           </button>
         </div>
       </article>
-      <article class="cartao cartao--recentes">
+      <article class="cartao cartao--recentes videos-recentes">
         <h3 class="cartao__titulo">Vídeos recentes</h3>
         <a href="#" class="cartao__link">Ver todos</a>
         <ul class="cartao__lista">
@@ -105,7 +102,7 @@
         </ul>
 
       </article>
-      <section class="secao">
+      <section class="secao secao-videos">
         <h3 class="titulo-secao">Vídeos mais vistos</h3>
         <article class="cartao">
           <img
@@ -176,41 +173,50 @@
           </div>
         </article>
       </section>
-      <article class="cartao cartao--recentes">
-        <h3 class="cartao__titulo">Vídeos recentes</h3>
-        <a href="#" class="cartao__link">Ver todos</a>
+      <article class="cartao cartao--recentes produtos-recentes">
+        <h3 class="cartao__titulo">Novas Artes</h3>
+        <a href="#" class="cartao__link">Ver todas</a>
         <ul class="cartao__lista">
           <li class="cartao__item">
-            <img src="./assets/img/miniatura_1.png" alt="Thumbnail" class="cartao__item-thumbnail">
-            <h4 class="cartao__intem-titulo">HZC - Love machine</h4>
-            <p class="cartao__item-perfil">Júlia Fonseca</p>
+            <img src="./assets/img/artigo_1.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">Segurança</h4>
+            <p class="cartao__item-perfil">Raphael Gibson</p>
           </li>
           <li class="cartao__item">
-            <img src="./assets/img/miniatura_2.png" alt="Thumbnail" class="cartao__item-thumbnail">
-            <h4 class="cartao__intem-titulo">HZC - Vol.3</h4>
-            <p class="cartao__item-perfil">Júlia Fonseca</p>
+            <img src="./assets/img/artigo_2.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">Malunguisse</h4>
+            <p class="cartao__item-perfil">Carolina Carvalho</p>
           </li>
           <li class="cartao__item">
-            <img src="./assets/img/miniatura_3.png" alt="Thumbnail" class="cartao__item-thumbnail">
-            <h4 class="cartao__intem-titulo">HZC - Pescaria na Urca</h4>
-            <p class="cartao__item-perfil">Júlia Fonseca</p>
+            <img src="./assets/img/artigo_3.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">Cora da Converse</h4>
+            <p class="cartao__item-perfil">Nikolas de Murtas</p>
           </li>
           <li class="cartao__item">
-            <img src="./assets/img/miniatura_4.png" alt="Thumbnail" class="cartao__item-thumbnail">
-            <h4 class="cartao__intem-titulo">Videolocagi - Guerreiros do Asfalto</h4>
-            <p class="cartao__item-perfil">Júlia Fonseca</p>
-          </li>
-          <li class="cartao__item">
-            <img src="./assets/img/miniatura_5.png" alt="Thumbnail" class="cartao__item-thumbnail">
-            <h4 class="cartao__intem-titulo">Videolocagi - Não importa o nível</h4>
-            <p class="cartao__item-perfil">Júlia Fonseca</p>
+            <img src="./assets/img/artigo_4.png" alt="Thumbnail" class="cartao__item-thumbnail">
+            <h4 class="cartao__intem-titulo">Guerreiros</h4>
+            <p class="cartao__item-perfil">Antonio Tebyriçá</p>
           </li>
         </ul>
 
       </article>
-      <section class="secao">
+
+      <article class="cartao cartao--destaque destaque-produtos">
+        <img src="assets/img/banner-mobile_2.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--mobile">
+        <img src="assets/img/banner_2.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--desktop">
+        <div class="cartao__conteudo">
+            <p class="cartao__destaque">Nova arte</p>
+            <h3 class="cartao__titulo">Only Zikas - Lagoa Dompa Club</h3>
+            <p class="cartao__perfil">João ZMS</p>
+            <p class="cartao__info cartao__info--moeda">33 minutos</p>
+            <p class="cartao__info cartao__info--visualizacao">53 visualizações</p>
+            <button class="cartao__botao cartao__botao--carrinho cartao__botao--destaque">Comprar agora</button>
+        </div>
+    </article>
+
+      <section class="secao secao-produtos">
         <h3 class="titulo-secao">Camisas mais recentes</h3>
-        <article class="cartao cartao--destaque">
+        <article class="cartao">
           <img
             src="./assets/img/produto_1.png"
             alt="Vídeo"
@@ -223,7 +229,7 @@
             <p class="cartao__info cartao__info--moeda">33,33</p>
 
             <button
-              class="cartao__botao cartao__info--carrinho" aria-label="Assistir agora"
+              class="cartao__botao cartao__botao--carrinho" aria-label="Assistir agora"
             >
             </button>
           </div>
@@ -240,7 +246,7 @@
             <p class="cartao__info cartao__info--moeda">33,33</p>
 
             <button
-              class="cartao__botao cartao__info--carrinho" aria-label="Assistir agora"
+              class="cartao__botao cartao__botao--carrinho" aria-label="Assistir agora"
             >
             </button>
           </div>
@@ -257,7 +263,7 @@
             <p class="cartao__info cartao__info--moeda">33,33</p>
 
             <button
-              class="cartao__botao cartao__info--carrinho" aria-label="Assistir agora"
+              class="cartao__botao cartao__botao--carrinho" aria-label="Assistir agora"
             >
             </button>
           </div>
@@ -274,7 +280,7 @@
             <p class="cartao__info cartao__info--moeda">33,33</p>
 
             <button
-              class="cartao__botao cartao__info--carrinho" aria-label="Assistir agora"
+              class="cartao__botao cartao__botao--carrinho" aria-label="Assistir agora"
             >
             </button>
           </div>
