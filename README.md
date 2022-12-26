@@ -33,8 +33,6 @@ AluraBooks           |
 
 [HZC](https://css-alura-fff6-3r07ulp35-annatrajano.vercel.app/)<br>
 
-[Alura+](https://css-alura.vercel.app/)<br>
-
 [AluraBooks](https://css-alura-y2ev.vercel.app/)<br>
 
 
